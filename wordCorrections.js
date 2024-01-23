@@ -534,6 +534,9 @@ function applyWordCorrections(text) {
         .replace(/Em otion ally/g, 'Emotionally')
         .replace(/tra umas/g, 'traumas')
         .replace(/cath ars is/g, 'catharsis')
+        .replace(/Se eking/g, 'Seeking')
+        .replace(/journal ing/g, 'journaling')
+        .replace(/distress ful/g, 'distressful')
         .replace(/Res olution/g, 'Resolution');
 
 }
