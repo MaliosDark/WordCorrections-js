@@ -525,7 +525,16 @@ function applyWordCorrections(text) {
         .replace(/Thr iller/g, 'Thriller')
         .replace(/thr ills/g, 'thrills')
         .replace(/Thr iller/g, 'Thriller')
-        .replace(/anx ieties/g, 'anxieties');
+        .replace(/anx ieties/g, 'anxieties')
+        .replace(/anthrop omorphic/g, 'anthropomorphic')
+        .replace(/r idd led/g, 'riddled')
+        .replace(/an o de/g, 'anode')
+        .replace(/tim eless/g, 'timeless')
+        .replace(/fores h adow ing/g, 'foreshadowing')
+        .replace(/Em otion ally/g, 'Emotionally')
+        .replace(/tra umas/g, 'traumas')
+        .replace(/cath ars is/g, 'catharsis')
+        .replace(/Res olution/g, 'Resolution');
 
 
 }
