@@ -536,5 +536,4 @@ function applyWordCorrections(text) {
         .replace(/cath ars is/g, 'catharsis')
         .replace(/Res olution/g, 'Resolution');
 
-
 }
